@@ -1,0 +1,13 @@
+meme_dict = {
+            "CRINGE": "Garip ya da utandırıcı bir şey",
+            "LOL": "Komik bir şeye verilen cevap", "MEMES": "İnternet üzerinde anonim olarak genellikle popüler resim, video, kelime ya da cümleler şeklinde yayılan ve geniş kitlelerce manası bilinen olgulara verilen isimdir"
+            }
+
+word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+
+if word in meme_dict.keys():
+    value = meme_dict [ world]
+    print ("bu kelimenin karşılığı:", value)
+    # Kelime eşleşiyorsa ne yapmalıyız?
+else:  print ("mağlesef, bu kelime sözlükte yok")
+    # Kelime eşleşmiyorsa ne yapmalıyız?
